@@ -1,5 +1,13 @@
-img{
+.my-pic{
     position: relative;
     float: left;
-    padding-right: 5px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.header{
+    text-align: center;
+}
+.card{
+    position: relative;
+    margin-bottom: 25px;
 }
