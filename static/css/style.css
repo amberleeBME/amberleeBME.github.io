@@ -3,11 +3,120 @@
     float: left;
     padding-right: 10px;
     padding-bottom: 10px;
+    max-height: 300px;
+    border-radius: 50px 15px;
 }
 .header{
-    text-align: center;
+    color:#BC4749;
+    font-weight:bolder;
 }
 .card{
     position: relative;
     margin-bottom: 25px;
 }
+.navbar-nav{
+    position: relative;
+  }
+.navbar-toggler{
+    border-radius: 7px;
+    background-color: #bc4749;
+}
+.tog-container{
+    border-color: #bc4749;
+    border-width: 5px;
+    border-radius: 5px;
+    background-color: #bc4749;
+}
+.box{
+    position:fixed;
+    /* margin-top: 10px; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+}
+/* LARGE */
+@media  screen and (min-width: 991px)  {
+    .bgcolor1{
+      background-color: #F2E8CF;
+    }  
+    .home-txt a{
+      text-align:center;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color:#386641;
+    }
+    .home-txt a:visited{
+      text-align:center;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color:#386641;
+    }
+    .navbar-nav{
+      position: absolute;
+      right: 0px;
+    }
+    .nav-item a{
+      text-align:center;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color:#386641;
+    }
+    .nav-item a:visited{
+      text-align:center;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color:#386641;
+    }
+    .bgcolor4{
+      background-color: #FEFBF6;
+    }
+  }
+  /* MEDIUM */
+  /* @media  screen and (max-width: 1130px) and (min-width: 992px){
+    figcaption{
+      font-size:80%;
+    }
+    .shrink{
+      font-size:125%;
+    }
+  } */
+  /* SMALL */
+  @media  screen and (max-width: 992px)  {
+    .bgcolor2 {
+      background-color: #386641;
+    }
+    .home-txt a{
+      text-align:center;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color:#F2E8CF;
+    }
+    .home-txt1a:visited{
+      text-align:center;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color:#F2E8CF;
+    }
+    .nav-item a{
+      text-align:center;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color:#F2E8CF;
+    }
+    .nav-item a:visited{
+      text-align:center;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color:#F2E8CF;
+    }
+    .bgcolor3{
+      background-color: #D8DEEE;
+    }
+   
+    .dropdown-menu a{
+      color:#d399cc;
+    }
+    .dropdown-menu a:visited{
+      color:#d399cc;
+    }
+  }
